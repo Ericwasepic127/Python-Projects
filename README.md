@@ -107,6 +107,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple calculator that performs basic arithmetic operations (`+`, `-`, `*`, `/`).
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/1_calculator.py
+- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/1_calculator.py)
 
 - **Steps**:
   1. Prompt the user for two numbers and an operator.
@@ -142,6 +143,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple random number generator, where users have to submit their guesses as to what the number is. Accept a range within 10 of the random number. `[0 - 100]`
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/2_random_guesser.py
+- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/2_random_guesser.py)
 
 - **Steps**:
   1. Generate a random number within the range `0 - 100`.
@@ -178,6 +180,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple password generator than can generate custom length passwords, from 8 up to 128 characters. Use uppercase, lowercase, symbols, and numbers.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/3_password_generator.py
+- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/3_password_generator.py)
 
 - **Steps**:
   1. Define your password generator's maps or strings.
@@ -214,6 +217,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple tip calculator, that calculates the tip based on the total and the desired percentage with splits.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/4_tip_calculator.py
+- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/4_tip_calculator.py)
 
 - **Steps**:
   1. Get the total from the user.
@@ -248,6 +252,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple temperature converter that converts between Celsius and Fahrenheit.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/5_temperature_converter.py
+- [![Live demo](https://img.sheilds.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/5_temperature_converter.py)
 
 - **Steps**:
   1. Define conversion values for each conversion.
@@ -282,6 +287,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple palindrome checker.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/6_palindrome_checker.py
+- [![Live demo](https://img.sheilds.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/6_palindrome_checker.py)
 
 - **Steps**:
   1. Prompt the user for a word.
@@ -315,6 +321,7 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple word counter.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/7_word_counter.py
+- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/7_word_counter.py)
 
 - **Steps**:
   1. Prompt the user for a file path (TXT).
