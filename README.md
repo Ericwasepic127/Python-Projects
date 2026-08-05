@@ -4,11 +4,11 @@ An open-source GitHub repository containing Python project ideas, steps, tips, a
 
 This repository is designed to help Python learners at all levels, starting with beginner-friendly projects and gradually progressing to more advanced ones. Each project includes clear instructions and a working code implementation.
 
-**Total Projects:** 44
+**Total Projects:** 45
 ---
-**Total Beginner Projects:** 33
+**Total Beginner Projects:** 32
 
-**Total Intermediate Projects:** 11
+**Total Intermediate Projects:** 13
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This repository is designed to help Python learners at all levels, starting with
 
 ## Setup
 
-- Ensure have at least Python `3.6` or later (we recommend `3.12` or later) installed on your computer. You can do a quick search and download it from a trusted provider for your platform.
+- Ensure you have at least Python `3.6` or later (we recommend `3.12` or later) installed on your computer. You can do a quick search and download it from a trusted provider for your platform.
 
 - Ensure you have an IDE or a place where you can code and run the Python interpreter.
 
@@ -32,69 +32,54 @@ This repository is designed to help Python learners at all levels, starting with
 
 ## Project Difficulty Ratings
 
-| *Project* | *Category* | *Difficulty* |
-| :-- | :-- | :-- |
-| ***Beginner** projects* | *Beginner* | ***Rating: 0.5~4.5*** |
-| **Project name** | ***Beginner** level* | *Rating: **0.5*** |
-| [Odd or Even Checker](#28-odd-or-even-checker) | Beginner | 0.5/10 |
-| [Multiplication Table Generator](#29-multiplication-table-generator) | Beginner | 0.5/10 |
-| [Simple Interest Calculator](#30-simple-interest-calculator) | Beginner | 0.5/10 |
-| **Project name** | ***Beginner** level* | *Rating: **1.0*** |
-| [Anagram Checker](#31-anagram-checker) | Beginner | 1.0/10 |
-| [Acronym Generator](#32-acronym-generator) | Beginner | 1.0/10 |
-| [Text Reverser](#18-text-reverser) | Beginner | 1.0/10 |
-| **Project name** | ***Beginner** level* | *Rating: **1.5*** |
+| Project | Category | Difficulty |
+| :--- | :--- | :--- |
 | [Calculator](#1-calculator) | Beginner | 1.5/10 |
+| [Number Guessing Game](#2-number-guessing-game) | Beginner | 2.0/10 |
+| [Password Generator](#3-password-generator) | Beginner | 2.5/10 |
 | [Tip Calculator](#4-tip-calculator) | Beginner | 1.5/10 |
 | [Temperature Converter](#5-temperature-converter) | Beginner | 1.5/10 |
 | [Palindrome Checker](#6-palindrome-checker) | Beginner | 1.5/10 |
-| [Dice Rolling Simulator](#12-dice-rolling-simulator) | Beginner | 1.5/10 |
-| [Email Slicer](#22-email-slicer) | Beginner | 1.5/10 |
-| [BMI Calculator](#23-bmi-calculator) | Beginner | 1.5/10 |
-| [Leap Year Checker](#27-leap-year-checker) | Beginner | 1.5/10 |
-| **Project name** | ***Beginner** level* | *Rating: **2.0*** |
-| [Number Guessing Game](#2-number-guessing-game) | Beginner | 2.0/10 |
 | [Word Counter](#7-word-counter) | Beginner | 2.0/10 |
-| [Mad Libs Generator](#11-mad-libs-generator) | Beginner | 2.0/10 |
-| [Fibonacci Sequence](#21-fibonacci-sequence) | Beginner | 2.0/10 |
-| **Project name** | ***Beginner** level* | *Rating: **2.5*** |
-| [Password Generator](#3-password-generator) | Beginner | 2.5/10 |
 | [Text Encryption](#8-text-encryption) | Beginner | 2.5/10 |
 | [Countdown Timer](#9-countdown-timer) | Beginner | 2.5/10 |
 | [Rock Paper Scissors](#10-rock-paper-scissors) | Beginner | 2.5/10 |
+| [Mad Libs Generator](#11-mad-libs-generator) | Beginner | 2.0/10 |
+| [Dice Rolling Simulator](#12-dice-rolling-simulator) | Beginner | 1.5/10 |
+| [Hangman Game](#13-hangman-game) | Beginner | 3.5/10 |
+| [Address Book](#14-address-book) | Beginner | 4.0/10 |
+| [Pomodoro Timer](#15-pomodoro-timer) | Beginner | 3.0/10 |
+| [Budget Tracker](#16-budget-tracker) | Beginner | 4.5/10 |
+| [File Sorter](#17-file-sorter) | Beginner | 3.5/10 |
+| [Text Reverser](#18-text-reverser) | Beginner | 1.0/10 |
 | [Simple Quiz Game](#19-simple-quiz-game) | Beginner | 2.5/10 |
 | [Prime Number Generator](#20-prime-number-generator) | Beginner | 2.5/10 |
-| [Unit Converter](#26-unit-converter) | Beginner | 2.5/10 |
+| [Fibonacci Sequence](#21-fibonacci-sequence) | Beginner | 2.0/10 |
+| [Email Slicer](#22-email-slicer) | Beginner | 1.5/10 |
+| [BMI Calculator](#23-bmi-calculator) | Beginner | 1.5/10 |
 | [Currency Converter](#24-currency-converter) | Beginner | 2.5/10 |
-| **Project name** | ***Beginner** level* | *Rating: **3.0*** |
-| [Pomodoro Timer](#15-pomodoro-timer) | Beginner | 3.0/10 |
 | [Task Tracker](#25-task-tracker) | Beginner | 3.0/10 |
-| **Project name** | ***Beginner** level* | *Rating: **3.5*** |
-| [Hangman Game](#13-hangman-game) | Beginner | 3.5/10 |
-| [File Sorter](#17-file-sorter) | Beginner | 3.5/10 |
-| **Project name** | ***Beginner** level* | *Rating: **4.0*** |
-| [Address Book](#14-address-book) | Beginner | 4.0/10 |
-| **Project name** | ***Beginner** level* | *Rating: **4.5*** |
-| [Budget Tracker](#16-budget-tracker) | Beginner | 4.5/10 |
-| [File viewer](#44-file-viewer) | Beginner | 4.5/10 |
-| ***Intermediate** projects* | *Intermediate* | ***Rating: 4.5~8.5*** |
-| **Project name** | ***Intermediate** level* | *Rating: **4.5*** |
-| [Basic Caesar Cipher](#6-basic-caesar-cipher) | Intermediate | 4.5/10 |
-| [CSV to JSON Converter](#9-csv-to-json-converter) | Intermediate | 4.5/10 |
-| **Project name** | ***Intermediate** level* | *Rating: **5.0*** |
-| [Prime Number Sieve](#5-prime-number-sieve) | Intermediate | 5.0/10 |
-| [File Metadata Extractor](#8-file-metadata-extractor) | Intermediate | 5.0/10 |
-| **Project name** | ***Intermediate** level* | *Rating: **5.5*** |
-| [Bank Account Simulator (OOP)](#7-bank-account-simulator-oop) | Intermediate | 5.5/10 |
-| [Text-based Adventure Game](#2-text-based-adventure-game) | Intermediate | 5.5/10 |
-| **Project name** | ***Intermediate** level* | *Rating: **6.0*** |
+| [Unit Converter](#26-unit-converter) | Beginner | 2.5/10 |
+| [Leap Year Checker](#27-leap-year-checker) | Beginner | 1.5/10 |
+| [Odd or Even Checker](#28-odd-or-even-checker) | Beginner | 0.5/10 |
+| [Multiplication Table Generator](#29-multiplication-table-generator) | Beginner | 0.5/10 |
+| [Simple Interest Calculator](#30-simple-interest-calculator) | Beginner | 0.5/10 |
+| [Anagram Checker](#31-anagram-checker) | Beginner | 1.0/10 |
+| [Acronym Generator](#32-acronym-generator) | Beginner | 1.0/10 |
 | [Tic Tac Toe](#1-tic-tac-toe) | Intermediate | 6.0/10 |
-| **Project name** | ***Intermediate** level* | *Rating: **6.5*** |
+| [Text-based Adventure Game](#2-text-based-adventure-game) | Intermediate | 5.5/10 |
+| [Sudoku Solver](#3-sudoku-solver) | Intermediate | 8.5/10 |
 | [Basic Sorting Algorithms](#4-basic-sorting-algorithms) | Intermediate | 6.5/10 |
+| [Prime Number Sieve](#5-prime-number-sieve) | Intermediate | 5.0/10 |
+| [Basic Caesar Cipher](#6-basic-caesar-cipher) | Intermediate | 4.5/10 |
+| [Bank Account Simulator (OOP)](#7-bank-account-simulator-oop) | Intermediate | 5.5/10 |
+| [File Metadata Extractor](#8-file-metadata-extractor) | Intermediate | 5.0/10 |
+| [CSV to JSON Converter](#9-csv-to-json-converter) | Intermediate | 4.5/10 |
 | [Fractal Creator](#10-fractal-creator) | Intermediate | 6.5/10 |
 | [File Explorer](#11-file-explorer) | Intermediate | 6.5/10 |
-| **Project name** | ***Intermediate** level* | *Rating: **8.5*** |
-| [Sudoku Solver](#3-sudoku-solver) | Intermediate | 8.5/10 |
+| [File Viewer](#12-file-viewer) | Intermediate | 4.5/10 |
+| [JSON Reader](#13-json-reader) | Intermediate | 5/10 |
+
 
 ## Beginner Projects
 
@@ -107,7 +92,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple calculator that performs basic arithmetic operations (`+`, `-`, `*`, `/`).
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/1_calculator.py
-- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/1_calculator.py)
 
 - **Steps**:
   1. Prompt the user for two numbers and an operator.
@@ -143,7 +127,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple random number generator, where users have to submit their guesses as to what the number is. Accept a range within 10 of the random number. `[0 - 100]`
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/2_random_guesser.py
-- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/2_random_guesser.py)
 
 - **Steps**:
   1. Generate a random number within the range `0 - 100`.
@@ -180,7 +163,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple password generator than can generate custom length passwords, from 8 up to 128 characters. Use uppercase, lowercase, symbols, and numbers.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/3_password_generator.py
-- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/3_password_generator.py)
 
 - **Steps**:
   1. Define your password generator's maps or strings.
@@ -217,7 +199,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple tip calculator, that calculates the tip based on the total and the desired percentage with splits.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/4_tip_calculator.py
-- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/4_tip_calculator.py)
 
 - **Steps**:
   1. Get the total from the user.
@@ -252,7 +233,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple temperature converter that converts between Celsius and Fahrenheit.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/5_temperature_converter.py
-- [![Live demo](https://img.sheilds.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/5_temperature_converter.py)
 
 - **Steps**:
   1. Define conversion values for each conversion.
@@ -287,7 +267,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple palindrome checker.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/6_palindrome_checker.py
-- [![Live demo](https://img.sheilds.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/6_palindrome_checker.py)
 
 - **Steps**:
   1. Prompt the user for a word.
@@ -321,7 +300,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 - **Description**: Build a simple word counter.
 
 - **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/7_word_counter.py
-- [![Live demo](https://img.shields.io/badge/Live_code_running-SUPY3IDE-green)](https://ericwasepic127.github.io/ide.html?url=https://raw.githubusercontent.com/Infinitode/Python-projects/refs/heads/main/Beginner/7_word_counter.py)
 
 - **Steps**:
   1. Prompt the user for a file path (TXT).
@@ -1115,32 +1093,6 @@ These projects are ideal for those new to Python. Each project includes a descri
 
     </details>
 
-### 44. File viewer
-- **Difficulty**: 4.5/10
-- **Description**: Get filename from user, and print user's file contents. Avoid any crashes! Don't forget it must be infinte loop
-- **Solution**: https://github.com/Infinitode/Python-Projects/blob/main/Beginner/44_file_viewer.py - [Original](https://github.com/Ericwasepic127/Python-Projects/blob/main/Beginner/44_file_viewer.py)
-- **Steps**:
-  1. Ask for filename
-  2. Check does file exists: If doesn't exists, show user as File Not Found. Handle it for directories too
-  3. Read the file. If it encourtes permission error, notify user as operation not permitted
-  4. Repeat back to 1, unless user clicks Ctrl-C (KeyboardInterrupt, SIGINT) or type `exit` at filename section
-- **Tips:**:
-    <details><summary>Tip 1:</summary>
-
-  Make reusable function for it so it makes easier
-
-    </details>
-    <details><summary>Tip 2:</summary>
-
-  Use `os.path.isfile` to check your file exists and it's not directory 
-
-    </details>
-        <details><summary>Tip 3:</summary>
-
-  Use `open` to handle file operation. It raises exception `PermissionError` when permission failed. Use `try/except` to catch and show user as operation not permitted
-
-    </details>
-
 > [!NOTE]
 > Working code solutions are in the `/Beginner` folder.
 
@@ -1446,6 +1398,63 @@ These projects are ideal for those with experience in Python. Each project inclu
   `os.path.isfile` determines whether it file or not; if it is a file, it returns `True`; if not, return `False`.
 
     </details>
+
+### 12. File viewer
+- **Difficulty**: 4.5/10
+- **Description**: Prompt the user for a filename and print the contents of the specified file. Ensure the program handles errors gracefully to avoid crashes. The program should run in an infinite loop until the user decides to exit.
+- **Solution**: [GitHub Repository](https://github.com/Infinitode/Python-Projects/blob/main/Intermediate/12_file_viewer.py) - [Original Source](https://github.com/Ericwasepic127/Python-Projects/blob/main/Beginner/44_file_viewer.py)
+- **Steps**:
+  1. Prompt the user for a filename.
+  2. Check if the file exists: If it does not exist, inform the user with a "File Not Found" message. Ensure to check for directories as well.
+  3. Attempt to read the file. If a permission error occurs, notify the user with an "Operation Not Permitted" message.
+  4. Repeat the process by returning to step 1, unless the user presses Ctrl-C (KeyboardInterrupt, SIGINT) or types "exit" when prompted for the filename.
+- **Tips**:
+  <details><summary>Tip 1:</summary>
+  
+  Create a reusable function to streamline the code and enhance readability.
+  
+  </details>
+  
+  <details><summary>Tip 2:</summary>
+  
+  Utilize `os.path.isfile` to verify that the file exists and is not a directory.
+  
+  </details>
+  
+  <details><summary>Tip 3:</summary>
+  
+  Use the `open` function for file operations. Note that it raises a `PermissionError` when access is denied. Implement try/except blocks to catch this exception and inform the user accordingly.
+  
+  </details>
+
+### 13. JSON Reader
+- **Difficulty**: 5/10
+- **Description**: Prompt the user for a JSON filename and print the contents of the specified file in a readable key-value format. Ensure the program handles errors gracefully to avoid crashes. The program should run in an infinite loop until the user decides to exit.
+- **Solution**: [GitHub Repository](https://github.com/Infinitode/Python-Projects/blob/main/Intermediate/13_json_viewer.py) - Original version by [Ericwasepic127](https://github.com/Ericwasepic127/Python-Projects/).
+- **Steps**:
+  1. Prompt the user for a filename.
+  2. Check if the file exists and is a file: If it does not exist, inform the user with a "File Not Found" message. Ensure to check for directories as well.
+  3. Attempt to read and parse the file as JSON. If the JSON is invalid, notify the user with an "Invalid JSON Format" message. If a permission error occurs, notify the user with an "Operation Not Permitted" message.
+  4. If parsing is successful, iterate through the data: If it's a dictionary, print each Name and Value pair. If it's a list, print each item with its index.
+  5. Repeat the process by returning to step 1, unless the user presses Ctrl-C (KeyboardInterrupt, SIGINT) or types "exit" when prompted for the filename.
+- **Tips**:
+  <details><summary>Tip 1:</summary>
+  
+  Create a reusable function `read_json()` to handle file validation and JSON parsing separately to streamline the code and enhance readability.
+  
+  </details>
+  
+  <details><summary>Tip 2:</summary>
+  
+  Utilize `os.path.isfile` to verify that the file exists and is not a directory, and use `json.load()` inside a try/except block to catch `json.JSONDecodeError`.
+  
+  </details>
+  
+  <details><summary>Tip 3:</summary>
+  
+  Use `repr()` or `!r` formatting when printing keys and values to preserve data types, and check if the loaded JSON is a dict before calling `.items()` to support lists as well.
+  
+  </details>
     
 
 > [!NOTE]
