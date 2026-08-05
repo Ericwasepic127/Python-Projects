@@ -1430,7 +1430,7 @@ These projects are ideal for those with experience in Python. Each project inclu
 ### 13. JSON Reader
 - **Difficulty**: 5/10
 - **Description**: Prompt the user for a JSON filename and print the contents of the specified file in a readable key-value format. Ensure the program handles errors gracefully to avoid crashes. The program should run in an infinite loop until the user decides to exit.
-- **Solution**: [GitHub Repository](https://github.com/Infinitode/Python-Projects/blob/main/Intermediate/13_json_viewer.py) - Original version by [Ericwasepic127](https://github.com/Ericwasepic127/Python-Projects/).
+- **Solution**: [GitHub Repository](https://github.com/Infinitode/Python-Projects/blob/main/Intermediate/13_json_reader.py) - Original version by [Ericwasepic127](https://github.com/Ericwasepic127/Python-Projects/).
 - **Steps**:
   1. Prompt the user for a filename.
   2. Check if the file exists and is a file: If it does not exist, inform the user with a "File Not Found" message. Ensure to check for directories as well.
