@@ -4,11 +4,11 @@ An open-source GitHub repository containing Python project ideas, steps, tips, a
 
 This repository is designed to help Python learners at all levels, starting with beginner-friendly projects and gradually progressing to more advanced ones. Each project includes clear instructions and a working code implementation.
 
-**Total Projects:** 44
+**Total Projects:** 45
 ---
 **Total Beginner Projects:** 32
 
-**Total Intermediate Projects:** 12
+**Total Intermediate Projects:** 13
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This repository is designed to help Python learners at all levels, starting with
 
 ## Setup
 
-- Ensure have at least Python `3.6` or later (we recommend `3.12` or later) installed on your computer. You can do a quick search and download it from a trusted provider for your platform.
+- Ensure you have at least Python `3.6` or later (we recommend `3.12` or later) installed on your computer. You can do a quick search and download it from a trusted provider for your platform.
 
 - Ensure you have an IDE or a place where you can code and run the Python interpreter.
 
@@ -78,6 +78,7 @@ This repository is designed to help Python learners at all levels, starting with
 | [Fractal Creator](#10-fractal-creator) | Intermediate | 6.5/10 |
 | [File Explorer](#11-file-explorer) | Intermediate | 6.5/10 |
 | [File Viewer](#12-file-viewer) | Intermediate | 4.5/10 |
+| [JSON Reader](#13-json-reader) | Intermediate | 5/10 |
 
 
 ## Beginner Projects
@@ -1423,6 +1424,35 @@ These projects are ideal for those with experience in Python. Each project inclu
   <details><summary>Tip 3:</summary>
   
   Use the `open` function for file operations. Note that it raises a `PermissionError` when access is denied. Implement try/except blocks to catch this exception and inform the user accordingly.
+  
+  </details>
+
+### 13. JSON Reader
+- **Difficulty**: 5/10
+- **Description**: Prompt the user for a JSON filename and print the contents of the specified file in a readable key-value format. Ensure the program handles errors gracefully to avoid crashes. The program should run in an infinite loop until the user decides to exit.
+- **Solution**: [GitHub Repository](https://github.com/Infinitode/Python-Projects/blob/main/Intermediate/13_json_viewer.py) - Original version by [Ericwasepic127](https://github.com/Ericwasepic127/Python-Projects/).
+- **Steps**:
+  1. Prompt the user for a filename.
+  2. Check if the file exists and is a file: If it does not exist, inform the user with a "File Not Found" message. Ensure to check for directories as well.
+  3. Attempt to read and parse the file as JSON. If the JSON is invalid, notify the user with an "Invalid JSON Format" message. If a permission error occurs, notify the user with an "Operation Not Permitted" message.
+  4. If parsing is successful, iterate through the data: If it's a dictionary, print each Name and Value pair. If it's a list, print each item with its index.
+  5. Repeat the process by returning to step 1, unless the user presses Ctrl-C (KeyboardInterrupt, SIGINT) or types "exit" when prompted for the filename.
+- **Tips**:
+  <details><summary>Tip 1:</summary>
+  
+  Create a reusable function `read_json()` to handle file validation and JSON parsing separately to streamline the code and enhance readability.
+  
+  </details>
+  
+  <details><summary>Tip 2:</summary>
+  
+  Utilize `os.path.isfile` to verify that the file exists and is not a directory, and use `json.load()` inside a try/except block to catch `json.JSONDecodeError`.
+  
+  </details>
+  
+  <details><summary>Tip 3:</summary>
+  
+  Use `repr()` or `!r` formatting when printing keys and values to preserve data types, and check if the loaded JSON is a dict before calling `.items()` to support lists as well.
   
   </details>
     
