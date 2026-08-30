@@ -28,7 +28,7 @@ This repository is designed to help Python learners at all levels, starting with
 - See the [Python & VS Code Installation Guide](INSTALLING.md) to install python by step by step. Visual Studio Code installation steps are also included in this.
 
 > [!TIP]
-> We use Visual Studio Code. It's fast, efficient, and has many extensions and customizability options. You can also use @Ericwasepic127's [SUPY3IDE](https://ericwasepic127.github.io/ide.html)
+> We use Visual Studio Code. It's fast, efficient, and has many extensions and customizability options.
 
 ## Project Difficulty Ratings
 
