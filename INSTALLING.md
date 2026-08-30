@@ -2,8 +2,6 @@
 
 A comprehensive guide to setting up Python and Visual Studio Code across Windows, macOS, and Linux.
 
-You can use online IDE, recommended using @Ericwasepic127's [SUPY3IDE](https://ericwasepic127.github.io/ide.html)
-
 ## Contents
 - [Windows Installation](#windows-installation)
 - [macOS Installation](#macos-installation)
